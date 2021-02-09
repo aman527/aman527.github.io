@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #4a8cca !important;
 		}
 
 	strong, b {
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #4a8cca;
 		font-size: 3.5em;
 	}
 
@@ -1794,7 +1794,11 @@ input, select, textarea {
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
+			margin-bottom: 0.8em;
 		}
+	li.experience-bp {
+		margin-top: 0;
+	}
 
 /* Form */
 
@@ -1848,7 +1852,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #4a8cca;
 		}
 
 	select {
@@ -1953,7 +1957,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #4a8cca;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2190,6 +2194,7 @@ input, select, textarea {
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden;
+			filter: drop-shadow(10px 7px 15px rgba(0, 4, 54, 0.342));
 		}
 
 			.image.avatar img {
@@ -2402,7 +2407,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #4a8cca;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2414,7 +2419,6 @@ input, select, textarea {
 				top: 0;
 				width: 2.5em;
 			}
-
 /* Icons */
 
 	ul.icons {
@@ -2618,7 +2622,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #4a8cca;
 			color: #ffffff !important;
 		}
 
@@ -2700,7 +2704,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #4a8cca;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2720,11 +2724,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #b5d7f7;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #b5d7f7;
 		}
 
 			#header a:hover {
@@ -2751,7 +2755,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #b5d7f7;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,7 +2776,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #b7d3ea;
 				}
 
 		#header > nav {
@@ -2789,7 +2793,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #4081be;
 					display: block;
 					padding: 0;
 				}
@@ -2808,7 +2812,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #4a8cca !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3076,7 +3080,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #4a8cca;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
